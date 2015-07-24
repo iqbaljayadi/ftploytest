@@ -1,0 +1,32 @@
+dev:
+    scheme: ftp
+    host: coba.tongkolspace.com
+    port: 21
+    user: cobatong
+    pass: ,L]4nwR]70oT
+    check: true
+    path:
+        local: 
+        remote: public_html/ftploytest
+
+stage:
+    scheme: ftp
+    host: ftp.my-stage-server.com
+    port: 21
+    user: user
+    pass: password
+    check: true
+    path:
+        local: release/
+        remote: public_html/
+
+live:
+    scheme: ftp
+    host: ftp.my-live-server.com
+    port: 21
+    user: user
+    pass: password
+    check: true
+    path:
+        local: release/
+        remote: public_html/
